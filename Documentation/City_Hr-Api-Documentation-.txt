@@ -1,0 +1,53 @@
+
+Api documentation for CityHr app || If you have any question just get in touch 
+
+( Developer --> https://web.facebook.com/yellhtutcom )
+____________________________________________________________________________
+****************************************************************************
+______________________________________________________________________________
+
+Login
+
+    Api route --->	http://http://139.177.184.228/api/login
+	ApiKey    --->	admin@cityhr2021apikeysuccess
+
+	$_POST['username'];
+    $_POST['password'];
+
+
+Status Code
+
+    [
+
+        {
+        "code": 200,
+        "data": {
+            "id": 1,
+            "name_id": "1CKDFHR9FT",
+            "department_id": null,
+            "name": "City HR Admin",
+            "phone": "09950845893",
+            "email": "admin@cityhr.com",
+            "parent_id": null,
+            "reg_id": null,
+            "upd_id": null,
+            "profile": null,
+            "role": "admin",
+            "status": 1,
+            "token": "6947fcdf1b360771efcabb4e4e99988a",
+            "email_verified_at": null,
+            "created_at": "2021-03-01T17:09:03.000000Z",
+            "updated_at": "2021-03-01T17:09:03.000000Z"
+        }
+    } ]
+
+    ['code'=>401,'message'=>'password wrong']
+
+    ['code'=>404,'message'=>'record not found']
+
+For Empty Request 
+
+    ['message'=>'fill all data field']
+
+
+______________________________________________________________________________
